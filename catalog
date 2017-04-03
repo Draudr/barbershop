@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Магазин</title>
+  </head>
+  <body>
+    <header class="mail-header">
+      <div class="container">
+        <div class="logo">
+          <img src="" alt="Логотип барбер шопа Бородинского" width="" height="">
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Прайс-лист</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <ul>
+            <li><a class="login" href="#">Вход</a></li>
+          </ul>
+       </div>
+      </div>
+    </header>
+
+  <main>
+    <h1>Средства для ухода</h1>
+      <ul class="breadcrumbs">
+        <li><a href="#">Главная</a></li>
+        <li> <a href="#">Магазин</a></li>
+        <li><a href="#">Средства для ухода</a></li>
+      </ul>
+      <aside class="filter">
+        <p class="filters-group">Производители:</p>
+          <form class="producers-block" action="index.html" method="post">
+            <input type="checkbox" name="producer" value="Baxter of california" id="Baxter of California" checked>
+            <label for="Baxter of California">Baxter of California</label>
+
+            <input type="checkbox" name="producer" value="MR. Natty" id="MR. Natty">
+            <label for="MR. Natty">MR. Natty</label>
+
+            <input type="checkbox" name="producer" value="Suavecito" id="Suavecito" checked>
+            <label for="Suavecito">Suavecito</label>
+
+            <input type="checkbox" name="producer" value="Malin+Goetz" id="Malin+Goetz">
+            <label for="Malin+Goetz">Malin+Goetz</label>
+
+            <input type="checkbox" name="producer" value="Murray's" id="Murray's">
+            <label for="Murray's">Murray's</label>
+
+            <input type="checkbox" name="producer" value="American crew" id="American cre" checked>
+            <label for="American cre">Murray's</label>
+
+        <p class="filter-group">Группы товаров</p>
+        <input type="radio" name="group-of-goods" value="shave-tools" id="shave-tools" checked>
+        <label for="shave-tools">Бритвенные принадлежности</label>
+
+        <input type="radio" name="group-of-goods" value="care" id="care">
+        <label for="care">Средства для ухода </label>
+
+        <input type="radio" name="group-of-goods" value="accessories" id="accessories">
+        <label for="accessories">Аксессуары</label>
+
+        <input type="button" submit name="show" value="Показать">
+        </form>
+      </aside>
+
+      <section class="catalog">
+        <div class="catalog-item">
+          <img src="http://placehold.it/150x100" alt="Набор Baxter of California">
+          <p>Набор для путешествий<br> Baxter of California</p>
+          <div class="price-for-item">2900 Руб.</div>
+          <input type="button" name="purchase" value="купить">
+
+          </div>
+        </div>
+
+
+
+
+      </section>
+  </main>
+
+  </div>
+  </body>
+</html>
